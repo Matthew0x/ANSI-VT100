@@ -13,6 +13,8 @@ graph TD;
 ```
 [**Description of VT100**](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
+[**Official terminals website**](https://vt100.net)
+
 **Color combinations**
 >>>
 \e[{**FORMAT_ATTRIBUTE**};{**FORGROUND_COLOR**};{**BACKGROUND_COLOR**}m
