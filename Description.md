@@ -11,4 +11,4 @@ graph TD;
   B-->D;
   C-->D;
 ```
-[Description of VT100](https://misc.flogisoft.com/bash/tip_colors_and_formatting){:target="_blank" rel="noopener"}
+[Description of VT100](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
