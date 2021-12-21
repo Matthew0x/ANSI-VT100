@@ -1,10 +1,7 @@
-**Gitlab markdown codes**
-https://docs.gitlab.com/ee/user/markdown.html
-
-ANSI/VT100
+# ANSI/VT100
 
 
-```mermaid
+```
 graph TD;
   a[VT100] --> b[ESC denoted with \e, \x1B, \033];
   b --> b1[Color static libraries];
@@ -94,3 +91,12 @@ graph TD;
 [Example of implementing VT100 support on Windows 10 and higher](https://solarianprogrammer.com/2019/04/08/c-programming-ansi-escape-codes-windows-macos-linux-terminals/)
 
 [Why VT100 support on Windows isn't the best...](https://stackoverflow.com/questions/51680709/colored-text-output-in-powershell-console-using-ansi-vt100-codes)
+
+
+**Gitlab markdown codes**
+
+https://docs.gitlab.com/ee/user/markdown.html
+
+**Gitlab markdown codes**
+
+https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
