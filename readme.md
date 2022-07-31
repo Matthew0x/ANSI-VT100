@@ -8,7 +8,7 @@ I might want to give it another try when I have some time the other day.
 
 ```mermaid
 graph TD;
-  a[VT100]-->|Millions of year of human evolution| b[Escape sequences denoted with \ e, \ x1B, \ 033];
+  a[VT100]-->|Millions of years of human evolution| b[Escape sequences denoted with \ e, \ x1B, \ 033];
   b-->b1[Color static libraries - e.g. C-lang]
   b-->b2[Works perfecty well in Bash, Node.js, possibly Python];
   b-->b3[Super borked in CMD];
