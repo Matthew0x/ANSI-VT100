@@ -1,19 +1,23 @@
-**Gitlab markdown codes**
-https://docs.gitlab.com/ee/user/markdown.html
+# This repository is synced
 
-ANSI/VT100
+## This is a small repo for storing some information related to ANSI-VT100 control sequences.
 
+### I used it in some of my Node.js or Python projects and it was a bit bizzarre to work with inside CMD on Windows, hence I made a tiny knowledge stash, which I will likely expand further. I actually forgot what exactly I was going to do with it. I believe that I created some kind of mini colors library that I could use for printing out colorful debug messages. Makes sense in that aspect I guess...
+
+I might want to give it another try when I have some time the other day.
 
 ```mermaid
 graph TD;
-  a[VT100]-->b[ESC denoted with \e, \x1B, \033];
-  b-->b1[Color static libraries]
-  b-->b2[Works perfecty well in BASH];
-  b-->b3[Works perfectly terrible in CMD];
+  a[VT100]-->|Millions of year of human evolution| b[Escape sequences denoted with \ e, \ x1B, \ 033];
+  b-->b1[Color static libraries - e.g. C-lang]
+  b-->b2[Works perfecty well in Bash, Node.js, possibly Python];
+  b-->b3[Super borked in CMD];
 ```
 [**Description of VT100**](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
-[**Official terminals website**](https://vt100.net)
+[**Official terminals website**](https://vt100.net) (those actually used to be old terminals made by DEC, which kind of started this type of coloring sequences etc.)
+
+[**Animations?**](https://klipkyle.gitlab.io/blog/2017-10-22-vt100-ani.html)
 
 **Color combinations**
 >>>
